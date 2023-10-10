@@ -7,3 +7,4 @@
 0|Graphite-Mono|~/.config/swww/Graphite-Mono/rocket.jpg
 0|Cyberpunk-Edge|~/.config/swww/Cyberpunk-Edge/david.jpg
 0|Frosted-Glass|~/.config/swww/Frosted-Glass/lake_mountain.jpg
+0|Gruvbox-Retro|~/.config/swww/Gruvbox-Retro/street.png
