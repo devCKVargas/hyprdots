@@ -40,8 +40,9 @@ terminus-font
 woff2
 ttf-meslo-nerd
 ttf-arimo-nerd
-ttf-fontawesome
+ttf-font-awesome
 ttf-material-design-icons-git
+ttf-jetbrains-mono-git
 
 # dev
 meld
