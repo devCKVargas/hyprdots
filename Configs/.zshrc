@@ -49,7 +49,7 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 # You can also set it to another string to have that shown instead of the default red dots.
 # e.g. COMPLETION_WAITING_DOTS="%F{yellow}waiting...%f"
 # Caution: this setting can cause issues with multiline prompts in zsh < 5.7.1 (see #5765)
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -86,7 +86,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='nvim'
+  export EDITOR='nano'
 else
   export EDITOR='nvim'
 fi
@@ -122,8 +122,16 @@ export $EDITOR='nvim'
 
 # Edit config
 alias nzsh="$EDITOR ~/.zshrc"
+alias nvisudo="sudo EDITOR=$EDITOR visudo"
 alias nneofetch="$EDITOR ~/.config/neofetch/config.conf"
 alias ngrub="sudo $EDITOR /etc/default/grub"
+alias nmkinitcpio="sudo $EDITOR /etc/mkinitcpio"
+alias nmirrorlist="sudo $EDITOR /etc/pacman.d/mirrorlist"
+alias npacman="sudo $EDITOR /etc/pacman.conf"
+alias ntimesync="sudo $EDITOR /etc/systemd/timesyncd.conf"
+
+# open folder w/ Code
+alias codeHypr="code ~/.config/hypr"
 
 # Update Grub
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
@@ -132,11 +140,13 @@ alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 #Display specs
-#neofetch
+neofetch
 
 #Display Pokemon
-pokemon-colorscripts -r
+#pokemon-colorscripts -r
 
 #Display random gifs
 #kitten icat --align left $(find $HOME/.config/neofetch/gifs/ -name "*.gif" | sort -R | head -1)
+
+# Spicetify (Spotify)
 export PATH=$PATH:~/.spicetify
