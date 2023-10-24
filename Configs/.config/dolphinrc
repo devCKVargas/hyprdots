@@ -1,7 +1,16 @@
 MenuBar=Disabled
 
 [$Version]
-update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display
+
+[DetailsMode]
+PreviewSize=32
+
+[Desktop Entry]
+DefaultProfile=dev.profile
+
+[ExtractDialog]
+2560x1440 screen: Window-Maximized=true
 
 [General]
 ShowSelectionToggle=false
@@ -19,6 +28,7 @@ dateFormat=ShortFormat
 [KFileDialog Settings]
 Places Icons Auto-resize=false
 Places Icons Static Size=16
+detailViewIconSize=16
 
 [KPropertiesDialog]
 2560x1440 screen: Window-Maximized=true
