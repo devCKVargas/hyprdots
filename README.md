@@ -193,7 +193,6 @@ network-manager-applet | nm tray
 bluez | for bluetooth
 bluez-utils | for bluetooth
 blueman | bt tray
-brightnessctl | brightness control for laptop
 
 | login | |
 | :-- | --- |
@@ -212,9 +211,8 @@ rofi-lbonn-wayland-git | app launcher
 waybar-hyprland-git | status bar
 swww | wallpaper app
 swaylock-effects-git | lockscreen
-swayidle | idle management daemon
 wlogout | logout screen
-grim | screenshot tool
+grimblast-git | screenshot tool
 slurp | selects region for screenshot/screenshare
 swappy | screenshot editor
 cliphist | clipboard manager
@@ -222,9 +220,15 @@ cliphist | clipboard manager
 | dependencies | |
 | :-- | --- |
 polkit-kde-agent | authentication agent
-xdg-desktop-portal-hyprland-git | XDG Desktop Portal
-imagemagick | for kitty/neofetch image processing
-qt5-imageformats | for dolphin thumbnails
+xdg-desktop-portal-hyprland | XDG Desktop Portal
+pacman-contrib | for system update check
+python-pyamdgpuinfo | for amd gpu info
+parallel | for parallel processing
+jq | to read json
+imagemagick | for image processing
+qt5-imageformats | for dolphin image thumbnails
+ffmpegthumbs | for dolphin video thumbnails
+brightnessctl | brightness control for laptop
 pavucontrol | audio settings gui
 pamixer | for waybar audio
 
@@ -247,11 +251,9 @@ ark | kde file archiver
 | shell | |
 | :-- | --- |
 zsh | main shell
-exa | colorful file lister
+eza | colorful file lister
 oh-my-zsh-git | for zsh plugins
 zsh-theme-powerlevel10k-git | theme for zsh
-zsh-syntax-highlighting-git | highlighting of commands
-zsh-autosuggestions-git | see completion as you type
 pokemon-colorscripts-git | display pokemon sprites
 
 ### Keybindings
