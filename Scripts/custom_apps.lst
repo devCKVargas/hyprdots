@@ -1,5 +1,5 @@
-#neovim
-#emote
+neovim
+emote
 steam
 gamemode
 # gamescope
@@ -17,6 +17,7 @@ youtube-music-git
 
 # file explorer
 dolphin-megasync-bin
+#dolphin-meld
 ffmpegthumbs
 konsole
 
@@ -42,6 +43,11 @@ zip
 unzip
 curl
 downgrade
+efitools
+os-prober
+mtools
+ntfs-3g
+duf
 
 # fonts
 terminus-font
@@ -66,7 +72,7 @@ catppuccin-konsole-theme-git
 
 # apps
 caprine
-megasync-bin
+#megasync
 audacity
 ark
 timeshift
