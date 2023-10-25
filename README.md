@@ -14,20 +14,20 @@
 <https://user-images.githubusercontent.com/106020512/235429801-e8b8dae2-c1ad-4e23-9aa2-b1edb6cabe99.mp4>
 
 <p align="center">
-    <img align="center" width="49%" src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/showcase_1.png" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/showcase_2.png" />
-    <img align="center" width="49%" src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/showcase_3.png" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/showcase_4.png" />
+    <img align="center" width="49%" src="https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/showcase_1.png" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/showcase_2.png" />   
+    <img align="center" width="49%" src="https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/showcase_3.png" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/showcase_4.png" />   
 </p>
 
 
-<div align = right> <br><br>
-
-[<kbd> <br> Top <br> </kbd>](#-design-by-t2)
-</div>
-
-## Installation
+### Installation
 
 The installation script is made for Arch, but **may** work on some Arch based distros.
-For Debian, please refer **Senshi111**'s version [here](https://github.com/Senshi111/debian-hyprland-hyprdots).
+For Debian, please refer **Senshi111**'s version [here](https://github.com/Senshi111/debian-hyprland-hyprdots). <br>
+Tested on: <br>
+
+- [EndeavourOS](https://endeavouros.com/)
+- [Arco Linux](https://arcolinux.info/)
+- [Arch using ALCI - Arch Linux Calamares Installer](https://alci.online/)
 
 > **Warning**
 >
@@ -37,22 +37,28 @@ For Debian, please refer **Senshi111**'s version [here](https://github.com/Sensh
 After minimal Arch install (with grub), clone and execute -
 
 ```shell
-pacman -Sy git
-git clone https://github.com/prasanthrangan/hyprdots ~/Hyprdots
+sudo pacman -Sy git
+git clone https://github.com/devckvargas/hyprdots ~/Hyprdots
 cd ~/Hyprdots/Scripts
-./install.sh
 ```
 
 > **Note**
 >
-> You can also create your own list (for ex. `custom_apps.lst`) with all your favorite apps and pass the file as a parameter to install it -
+> Add apps you want to install (replace **nvim** with your own editor e.g. nano, vim, code, kate, etc..)
+>
+> ```shell
+>nvim ~/Hyprdots/Scripts/custom_apps.lst
+>```
+>
+> Pass the file as a parameter to install it -
+>
 >
 >```shell
 >./install.sh custom_apps.lst
 >```
 
-Please reboot after the install script completes and takes you to sddm login screen (or black screen) for the first time.
-For more details, please refer [installation wiki](https://github.com/prasanthrangan/hyprdots/wiki/Installation)
+Please **reboot after the install script completes and takes you to sddm login screen (or black screen)** for the first time.
+For more details, please refer [installation wiki](https://github.com/devckvargas/hyprdots/wiki/Installation)
 
 
 <div align = right> <br><br>
@@ -81,54 +87,53 @@ To add your own custom theme, please refer [theming wiki](https://github.com/pra
 
 | Catppuccin-Mocha |
 | :-: |
-| ![Catppuccin-Mocha#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_mocha_1.png) |
-| ![Catppuccin-Mocha#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_mocha_2.png) |
+| ![Catppuccin-Mocha#1](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/theme_mocha_1.png) |
+| ![Catppuccin-Mocha#2](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/theme_mocha_2.png) |
 
 | Catppuccin-Latte |
 | :-: |
-| ![Catppuccin-Latte#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_latte_1.png) |
-| ![Catppuccin-Latte#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_latte_2.png) |
+| ![Catppuccin-Latte#1](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/theme_latte_1.png) |
+| ![Catppuccin-Latte#2](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/theme_latte_2.png) |
 
 | Decay-Green |
 | :-: |
-| ![Decay-Green#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_decay_1.png) |
-| ![Decay-Green#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_decay_2.png) |
+| ![Decay-Green#1](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/theme_decay_1.png) |
+| ![Decay-Green#2](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/theme_decay_2.png) |
 
 | Rosé-Pine |
 | :-: |
-| ![Rosé-Pine#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_rosine_1.png) |
-| ![Rosé-Pine#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_rosine_2.png) |
+| ![Rosé-Pine#1](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/theme_rosine_1.png) |
+| ![Rosé-Pine#2](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/theme_rosine_2.png) |
 
 | Tokyo-Night |
 | :-: |
-| ![Tokyo-Night#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_tokyo_1.png) |
-| ![Tokyo-Night#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_tokyo_2.png) |
+| ![Tokyo-Night#1](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/theme_tokyo_1.png) |
+| ![Tokyo-Night#2](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/theme_tokyo_2.png) |
 
 | Material-Sakura |
 | :-: |
-| ![Material-Sakura#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_maura_1.png) |
-| ![Material-Sakura#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_maura_2.png) |
+| ![Material-Sakura#1](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/theme_maura_1.png) |
+| ![Material-Sakura#2](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/theme_maura_2.png) |
 
 | Graphite-Mono |
 | :-: |
-| ![Graphite-Mono#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_graph_1.png) |
-| ![Graphite-Mono#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_graph_2.png) |
+| ![Graphite-Mono#1](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/theme_graph_1.png) |
+| ![Graphite-Mono#2](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/theme_graph_2.png) |
 
 | Cyberpunk-Edge |
 | :-: |
-| ![Cyberpunk-Edge#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_cedge_1.png) |
-| ![Cyberpunk-Edge#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_cedge_2.png) |
+| ![Cyberpunk-Edge#1](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/theme_cedge_1.png) |
+| ![Cyberpunk-Edge#2](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/theme_cedge_2.png) |
 
 | Frosted-Glass |
 | :-: |
-| ![Frosted-Glass#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_frosted_1.png) |
-| ![Frosted-Glass#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_frosted_2.png) |
+| ![Frosted-Glass#1](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/theme_frosted_1.png) |
+| ![Frosted-Glass#2](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/theme_frosted_2.png) |
 
 | Gruvbox-Retro |
 | :-: |
 | ![Gruvbox-Retro#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_gruvbox_1.png) |
 | ![Gruvbox-Retro#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_gruvbox_2.png) |
-
 
 <div align = right> <br><br>
 
@@ -139,38 +144,38 @@ To add your own custom theme, please refer [theming wiki](https://github.com/pra
 
 | Theme Select |
 | :-: |
-| ![Theme Select](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_select.png) |
+| ![Theme Select](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/theme_select.png) |
 
 | Wallpaper Select |
 | :-: |
-| ![Wallpaper Select](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/walls_select.png) |
+| ![Wallpaper Select](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/walls_select.png) |
 
 | Launcher Style Select |
 | :-: |
-| ![Launcher Style Select](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/rofi_style_sel.png) |
+| ![Launcher Style Select](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/rofi_style_sel.png) |
 
 | Launcher Styles |
 | :-: |
-| ![rofi style#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/rofi_style_1.png) |
-| ![rofi style#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/rofi_style_2.png) |
-| ![rofi style#3](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/rofi_style_3.png) |
-| ![rofi style#4](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/rofi_style_4.png) |
-| ![rofi style#5](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/rofi_style_5.png) |
-| ![rofi style#6](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/rofi_style_6.png) |
-| ![rofi style#7](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/rofi_style_7.png) |
-| ![rofi style#8](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/rofi_style_8.png) |
+| ![rofi style#1](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/rofi_style_1.png) |
+| ![rofi style#2](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/rofi_style_2.png) |
+| ![rofi style#3](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/rofi_style_3.png) |
+| ![rofi style#4](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/rofi_style_4.png) |
+| ![rofi style#5](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/rofi_style_5.png) |
+| ![rofi style#6](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/rofi_style_6.png) |
+| ![rofi style#7](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/rofi_style_7.png) |
+| ![rofi style#8](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/rofi_style_8.png) |
 
 | Wlogout Menu |
 | :-: |
-| ![Wlogout Menu#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/wlog_style_1.png) |
-| ![Wlogout Menu#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/wlog_style_2.png) |
+| ![Wlogout Menu#1](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/wlog_style_1.png) |
+| ![Wlogout Menu#2](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/wlog_style_2.png) |
 
 | Game Launchers |
 | :-: |
-| ![Game Launchers#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/game_launch_1.png) |
-| ![Game Launchers#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/game_launch_2.png) |
-| ![Game Launchers#3](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/game_launch_3.png) |
-| ![Game Launchers#4](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/game_launch_4.png) |
+| ![Game Launchers#1](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/game_launch_1.png) |
+| ![Game Launchers#2](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/game_launch_2.png) |
+| ![Game Launchers#3](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/game_launch_3.png) |
+| ![Game Launchers#4](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/game_launch_4.png) |
 
 
 <div align = right> <br><br>
@@ -283,60 +288,63 @@ To add your own custom theme, please refer [theming wiki](https://github.com/pra
 
 | Keys | Action |
 | :--  | :-- |
-| <kbd>Super</kbd> + <kbd>Q</kbd> | quit active/focused window
-| <kbd>Alt</kbd> + <kbd>F4</kbd> | quit active/focused window
-| <kbd>Super</kbd> + <kbd>Del</kbd> | quit hyprland session
-| <kbd>Super</kbd> + <kbd>W</kbd> | toggle window on focus to float
-| <kbd>Alt</kbd> + <kbd>Enter</kbd> | toggle window on focus to fullscreen
-| <kbd>Super</kbd> + <kbd>J</kbd> | toggle layout
-| <kbd>Super</kbd> + <kbd>G</kbd> | toggle window group
-| <kbd>Super</kbd> + <kbd>T</kbd> | launch kitty terminal
-| <kbd>Super</kbd> + <kbd>E</kbd> | launch dolphin file explorer
-| <kbd>Super</kbd> + <kbd>C</kbd> | launch vscode
-| <kbd>Super</kbd> + <kbd>F</kbd> | launch firefox
-| <kbd>Super</kbd> + <kbd>A</kbd> | launch desktop applications (rofi)
-| <kbd>Super</kbd> + <kbd>Tab</kbd> | switch open applications (rofi)
-| <kbd>Super</kbd> + <kbd>R</kbd> | browse system files (rofi)
-| <kbd>F10</kbd> | mute audio output (toggle)
-| <kbd>F11</kbd> | decrease volume (hold)
-| <kbd>F12</kbd> | increase volume (hold)
-| <kbd>Super</kbd> + <kbd>V</kbd> | clipboard history paste
-| <kbd>Super</kbd> + <kbd>L</kbd> | lock screen
-| <kbd>Super</kbd> + <kbd>Backspace</kbd> | logout menu
-| <kbd>Super</kbd> + <kbd>K</kbd> | switch keyboard layout
-| <kbd>Super</kbd> + <kbd>P</kbd> | drag to select area or click on a window to print
-| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>P</kbd> | print current screen
-| <kbd>Super</kbd> + <kbd>RightClick</kbd> | resize the window
-| <kbd>Super</kbd> + <kbd>LeftClick</kbd> | change the window position
-| <kbd>Super</kbd> + <kbd>MouseScroll</kbd> | cycle through workspaces
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd>| resize windows (hold)
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd>| move active window within the current workspace
-| <kbd>Super</kbd> + <kbd>[0-9]</kbd> | switch to workspace [0-9]
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>[0-9]</kbd> | move active window to workspace [0-9]
-| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>[0-9]</kbd> | move active window to workspace [0-9] (silently)
-| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd> | move window to special workspace
-| <kbd>Super</kbd> + <kbd>S</kbd> | toogle to special workspace
-| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>G</kbd> | disable hypr effects for gamemode
-| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>→</kbd> | next wallpaper
-| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>←</kbd> | previous wallpaper
-| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>↑</kbd> | next waybar mode
-| <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>↓</kbd> | previous waybar mode
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd> | toggle (theme <//> wall) based colors
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd> | theme select menu
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>W</kbd> | wallpaper select menu
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd> | rofi style select menu
+| `Super + Q` | quit active/focused window
+| `Alt + F4` | quit active/focused window
+| `Super + L` | lock screen
+| `Super + Backspace` | logout menu
+| `Super + Del` | quit hyprland session (logout w/out confirmation)
+| `Super + SPACE` | toggle window on focus to float
+| `Super + F` | toggle window on focus to fullscreen
+| `SUPER + J` | toggle layout
+| `SUPER + P` | toggle pseudotile
+| `Super + G` | toggle window group
+| `Super + RETURN` / `(Numpad ENTER)` | launch terminal (kitty)
+| `Super + E` | launch file explorer (dolphin)
+| `Super + C` | launch editor (vscode)
+| `Super + B` | launch browser (msedge)
+| `Super + D` | launch desktop applications (rofi)
+| `Super + Tab` | switch open applications (rofi)
+| `Super + R` | browse system files (rofi)
+| `Super + period` | browse emoji
+| `fn + F9` | mute audio output (toggle)
+| `fn + F10` `(hold)` | decrease volume
+| `fn + F11` `(hold)` | increase volume
+| `Super + Ctrl + ALT + S`| open spotify
+| `Super + Ctrl + ALT + ↓` `(hold)` | decrease volume for spotify
+| `Super + Ctrl + ALT + ↑` `(hold)` | increase volume for spotify
+| `Super + V` | clipboard history paste
+| `Super + P` | screenshot snip (rectangular select)
+| `Super + Alt + P` / `PrintScreen` | screenshot all screen
+| `Super + SHIFT + X` | open screenshot folder (HOME/Pictures)
+| `Super + RightClick` `(drag)` | resize the window
+| `Super + LeftClick` `(drag)` | change the window position
+| `Super + MouseScroll` / `PageUp/PageDown` | cycle through workspaces
+| `Super + Shift + ←→↑↓` `(hold)` | resize windows
+| `Super + [0-9]` | switch to workspace [0-9]
+| `Super + backtick` / `backquote` | switch to workspace [0]
+| `Super + Shift + [0-9]` | move active window to workspace [0-9]
+| `Super + Shift + backtick` / `backquote` | move active window to workspace [0]
+| `Super + ALT + [0-9]` | move active window to workspace silently [0-9] (cursor won't follow)
+| `Super + ALT + backtick` / `backquote` | move active window to workspace silently [0] (cursor won't follow)
+| `Super + CTRL + S` | move window to special workspace
+| `Super + CTRL + ←→↑↓` | move window around
+| `Super + S` | toogle to special workspace
+| `Super + Alt + G` | disable hypr effects for gamemode
+| `Super + Alt + →` | next wallpaper
+| `Super + Alt + ←` | previous wallpaper
+| `Super + Alt + ↑` | next waybar mode
+| `Super + Alt + ↓` | previous waybar mode
+| `Super + ALT + D` | toggle (theme <//> wall) based colors
+| `Super + ALT + T` | theme select menu
+| `Super + ALT + W` | wallpaper select menu
+| `Super + ALT + A` | rofi style select menu
+| `Super + ALT + PageDown/PageUp` | turn on/off blue light filter
 
+### Playlist
 
-<div align = right> <br><br>
-
-[<kbd> <br> Top <br> </kbd>](#-design-by-t2)
-</div>
-
-## Playlist
-
-<table><tr><td><code>y</code><br><code>o</code><br><code>u</code><br><code>t</code><br><code>u</code><br><code>b</code><br><code>e</code></td><td>
-
-[![YouTube playlist thumbnail](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/yt_playlist.png)](https://www.youtube.com/watch?v=_nyStxAI75s&list=PLt8rU_ebLsc5yEHUVsAQTqokIBMtx3RFY)
+| youtube (Prasanth Rangan) |
+| --- |
+| [![youtube video screenshot](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/yt_playlist.png)](https://www.youtube.com/watch?v=_nyStxAI75s&list=PLt8rU_ebLsc5yEHUVsAQTqokIBMtx3RFY) |
 
 </td></tr></table>
 
@@ -348,8 +356,8 @@ To add your own custom theme, please refer [theming wiki](https://github.com/pra
 
 ## Known Issues
 
-- [ ] Few scaling issues with rofi configs, as they are created based on my ultrawide (21:9) display.
-- [ ] Random lockscreen crash, refer https://github.com/swaywm/sway/issues/7046
-- [ ] Waybar launching rofi breaks mouse input (added `sleep 0.1` as workaround), refer https://github.com/Alexays/Waybar/issues/1850
+- [ ] Few scaling issues with rofi configs, as they are created based on [prasanthrangan's](https://github.com/prasanthrangan/) ultrawide (21:9) display.
+- [ ] Random lockscreen crash, refer <https://github.com/swaywm/sway/issues/7046>
+- [ ] Waybar launching rofi breaks mouse input (added `sleep 0.1` as workaround), refer <https://github.com/Alexays/Waybar/issues/1850>
 - [ ] Flatpak QT apps does not follow system theme
 

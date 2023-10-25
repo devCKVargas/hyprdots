@@ -1,0 +1,15 @@
+[ExtractDialog]
+2560x1440 screen: Window-Maximized=true
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[KFileDialog Settings]
+detailViewIconSize=16
+
+[MainWindow]
+2560x1440 screen: Window-Maximized=true
+State=AAAA/wAAAAD9AAAAAQAAAAEAAACpAAADqfwCAAAAAfsAAAAWAGEAcgBrAF8AcwBpAGQAZQBiAGEAcgEAAAAoAAADqQAAAF4A///+AAACxQAAA6kAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+StatusBar=Disabled
+ToolBarsMovable=Disabled

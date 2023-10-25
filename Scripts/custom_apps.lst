@@ -1,8 +1,89 @@
-#neovim
-#emote
+neovim
+emote
 steam
 gamemode
-#gamescope
-#mangohud
+# gamescope
+# mangohud
+
+# git
+github-cli
+lazygit
+gitkraken
+
+# music
 spotify
-spicetify-cli
+# spicetify-cli
+youtube-music-git
+
+# file explorer
+dolphin-megasync-bin
+#dolphin-meld
+ffmpegthumbs
+konsole
+
+# system
+wget
+whois
+man-db
+man-pages
+lf
+which
+tree
+tldr++
+pkgfile
+selectdefaultapplication-fork-git
+ventoy-bin
+# pamac-aur
+mkinitcpio-firmware
+archlinux-tweak-tool-git
+reflector-simple
+sofirem-git
+unrar
+zip
+unzip
+curl
+downgrade
+efitools
+os-prober
+mtools
+ntfs-3g
+duf
+
+# fonts
+terminus-font
+woff2
+ttf-meslo-nerd
+ttf-arimo-nerd
+ttf-font-awesome
+ttf-material-design-icons-git
+ttf-jetbrains-mono-git
+
+# dev
+meld
+microsoft-edge-stable-bin
+responsively
+vlc
+ticktick
+google-chrome
+firefox
+
+# theme
+catppuccin-konsole-theme-git
+
+# apps
+caprine
+#megasync
+audacity
+ark
+timeshift
+btop
+nvtop
+partitionmanager
+kalk
+bitwarden
+discord-screenaudio
+freedownloadmanager
+krita
+gimp
+telegram-desktop
+hyprshade-git
