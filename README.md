@@ -1,25 +1,24 @@
 ###### *<div align = right><sub>// design by t2</sub></div>*
+
 <div align = center><img src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/hyprdots_banner.png"><br><br>
 
-&ensp;[<kbd> <br> Install <br> </kbd>](#Installation)&ensp;
-&ensp;[<kbd> <br> Themes <br> </kbd>](#Theming)&ensp;
-&ensp;[<kbd> <br> Styles <br> </kbd>](#Styles)&ensp;
-&ensp;[<kbd> <br> Packages <br> </kbd>](#Packages)&ensp;
-&ensp;[<kbd> <br> Keybindings <br> </kbd>](#Keybindings)&ensp;
-&ensp;[<kbd> <br> Youtube <br> </kbd>](#Playlist)&ensp;
-&ensp;[<kbd> <br> KnownIssues <br> </kbd>](#Known-Issues)&ensp;
+&ensp;[<kbd> <br> Install <br> </kbd>](#installation)&ensp;
+&ensp;[<kbd> <br> Themes <br> </kbd>](#theming)&ensp;
+&ensp;[<kbd> <br> Styles <br> </kbd>](#styles)&ensp;
+&ensp;[<kbd> <br> Packages <br> </kbd>](#packages)&ensp;
+&ensp;[<kbd> <br> Keybindings <br> </kbd>](#keybindings)&ensp;
+&ensp;[<kbd> <br> Youtube <br> </kbd>](#playlist)&ensp;
+&ensp;[<kbd> <br> KnownIssues <br> </kbd>](#known-issues)&ensp;
 <br><br><br><br></div>
-
 
 <https://user-images.githubusercontent.com/106020512/235429801-e8b8dae2-c1ad-4e23-9aa2-b1edb6cabe99.mp4>
 
 <p align="center">
-    <img align="center" width="49%" src="https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/showcase_1.png" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/showcase_2.png" />   
-    <img align="center" width="49%" src="https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/showcase_3.png" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/showcase_4.png" />   
+    <img align="center" width="49%" src="https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/showcase_1.png" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/showcase_2.png" />
+    <img align="center" width="49%" src="https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/showcase_3.png" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/showcase_4.png" />
 </p>
 
-https://github.com/prasanthrangan/hyprdots/assets/106020512/c995699a-299c-4a8e-99d4-71aa3d68eb93
-
+<https://github.com/prasanthrangan/hyprdots/assets/106020512/c995699a-299c-4a8e-99d4-71aa3d68eb93>
 
 ### Installation
 
@@ -61,7 +60,6 @@ cd ~/Hyprdots/Scripts
 
 Please **reboot after the install script completes and takes you to sddm login screen (or black screen)** for the first time.
 For more details, please refer [installation wiki](https://github.com/devckvargas/hyprdots/wiki/Installation)
-
 
 <div align = right> <br><br>
 
@@ -179,7 +177,6 @@ To add your own custom theme, please refer [theming wiki](https://github.com/pra
 | ![Game Launchers#3](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/game_launch_3.png) |
 | ![Game Launchers#4](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/game_launch_4.png) |
 
-
 <div align = right> <br><br>
 
 [<kbd> <br> Top <br> </kbd>](#-design-by-t2)
@@ -280,7 +277,6 @@ To add your own custom theme, please refer [theming wiki](https://github.com/pra
     <tr><td>pokemon-colorscripts-git</td><td>display pokemon sprites</td></tr></table>
 </td></tr></table>
 
-
 <div align = right> <br><br>
 
 [<kbd> <br> Top <br> </kbd>](#-design-by-t2)
@@ -350,7 +346,6 @@ To add your own custom theme, please refer [theming wiki](https://github.com/pra
 
 </td></tr></table>
 
-
 <div align = right> <br><br>
 
 [<kbd> <br> Top <br> </kbd>](#-design-by-t2)
@@ -362,4 +357,3 @@ To add your own custom theme, please refer [theming wiki](https://github.com/pra
 - [ ] Random lockscreen crash, refer <https://github.com/swaywm/sway/issues/7046>
 - [ ] Waybar launching rofi breaks mouse input (added `sleep 0.1` as workaround), refer <https://github.com/Alexays/Waybar/issues/1850>
 - [ ] Flatpak QT apps does not follow system theme
-
