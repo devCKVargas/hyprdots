@@ -1,5 +1,8 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# Pipx, Spicetify (Spotify)
+export PATH="$PATH:$HOME/.local/bin:$HOME/.spicetify"
 
 # Path to your oh-my-zsh installation.
 ZSH=/usr/share/oh-my-zsh/
@@ -242,9 +245,3 @@ neofetch
 
 #Display random gifs
 #kitten icat --align left $(find $HOME/.config/neofetch/gifs/ -name "*.gif" | sort -R | head -1)
-
-# Spicetify (Spotify)
-export PATH=$PATH:~/.spicetify
-
-# Created by `pipx` on 2023-10-19 00:30:50
-export PATH="$PATH:/home/devck/.local/bin"
