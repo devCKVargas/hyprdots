@@ -1,6 +1,6 @@
 neovim
 emote
-steam
+# steam
 gamemode
 # gamescope
 # mangohud
@@ -8,12 +8,12 @@ gamemode
 # git
 github-cli
 lazygit
-gitkraken
+# gitkraken (same as vscode gitlens)
 
 # music
 spotify
 # spicetify-cli
-youtube-music-git
+# youtube-music-git
 
 # file explorer
 dolphin-megasync-bin
@@ -33,7 +33,6 @@ tldr++
 pkgfile
 selectdefaultapplication-fork-git
 ventoy-bin
-# pamac-aur
 mkinitcpio-firmware
 archlinux-tweak-tool-git
 reflector-simple
@@ -48,10 +47,14 @@ os-prober
 mtools
 ntfs-3g
 duf
+hyprshade-git
+xorg-xwininfo
+xclip
+zramd
+trash-cli
 
 # fonts
 terminus-font
-woff2
 ttf-meslo-nerd
 ttf-arimo-nerd
 ttf-font-awesome
@@ -65,25 +68,24 @@ responsively
 vlc
 ticktick
 google-chrome
-firefox
 
 # theme
 catppuccin-konsole-theme-git
 
 # apps
 caprine
-#megasync
+megasync-bin
+# pamac-nosnap
+# libpamac-nosnap
 audacity
-ark
 timeshift
 btop
 nvtop
 partitionmanager
 kalk
 bitwarden
-discord-screenaudio
+# discord-screenaudio
 freedownloadmanager
-krita
+# krita
 gimp
 telegram-desktop
-hyprshade-git
