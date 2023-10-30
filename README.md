@@ -1,5 +1,9 @@
 ###### *<div align = right><sub>// design by t2</sub></div>*
 
+*<div align = right>![GitHub last commit (main)](https://img.shields.io/github/last-commit/devckvargas/hyprdots/main?style=for-the-badge&label=Latest%20(main)&color=black)
+![GitHub last commit (dev)](https://img.shields.io/github/last-commit/devckvargas/hyprdots/dev?style=for-the-badge&label=Latest%20(dev)&color=black)<br>
+![GitHub repo size](https://img.shields.io/github/repo-size/devckvargas/hyprdots?style=for-the-badge&logo=github&color=black)</div>*<br>
+
 <div align = center><img src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/hyprdots_banner.png"><br><br>
 
 &ensp;[<kbd> <br> Install <br> </kbd>](#installation)&ensp;
