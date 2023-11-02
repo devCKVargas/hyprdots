@@ -1,5 +1,6 @@
 neovim
 emote
+trash-cli-git
 # steam
 gamemode
 # gamescope
@@ -12,7 +13,7 @@ lazygit
 
 # music
 spotify
-# spicetify-cli
+spicetify-cli
 # youtube-music-git
 
 # file explorer
