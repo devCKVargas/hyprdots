@@ -9,3 +9,4 @@
 - [x] style(rofi) set pref rofi layout
 - [ ] feat: add keybindings on hover in a waybar module
 - [ ] fix: hyprpicker (remove monitor bitdepth)
+- [ ] style(vscode): move `Activity Bar``to top
