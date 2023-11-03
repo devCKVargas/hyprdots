@@ -1,7 +1,7 @@
 ${HOME}|.zshrc .p10k.zsh|zsh oh-my-zsh-git zsh-theme-powerlevel10k-git pokemon-colorscripts-git
 ${HOME}/.config/Code/User|settings.json|visual-studio-code-bin
 ${HOME}/.config|dunst|dunst
-${HOME}/.config/hypr|animations.conf hyprland.conf keybindings.conf windowrules.conf scripts themes wallbash|hyprland
+${HOME}/.config/hypr|animations.conf hyprland.conf keybindings.conf windowrules.conf monitors.conf userprefs.conf scripts themes wallbash|hyprland
 ${HOME}/.config|kitty|kitty
 ${HOME}/.config|Kvantum|kvantum
 ${HOME}/.config|MangoHud|mangohud
@@ -18,3 +18,6 @@ ${HOME}|.gtkrc-2.0|nwg-look
 ${HOME}/.config|dolphinrc kdeglobals|dolphin
 ${HOME}/.local/share|dolphin|dolphin
 ${HOME}/.local/share/kxmlgui5|dolphin|dolphin
+${HOME}/.local/share|konsole|konsole
+${HOME}/.config|mimeapps.list|xdg-utils
+${HOME}/.config|arkrc|ark
