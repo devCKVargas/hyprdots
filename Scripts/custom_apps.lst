@@ -18,7 +18,7 @@ spicetify-cli
 
 # file explorer
 dolphin-megasync-bin
-#dolphin-meld
+# dolphin-meld
 ffmpegthumbs
 konsole
 
@@ -70,6 +70,9 @@ vlc
 ticktick
 google-chrome
 
+# android
+android-tools
+
 # theme
 catppuccin-konsole-theme-git
 
@@ -87,6 +90,7 @@ kalk
 bitwarden
 # discord-screenaudio
 freedownloadmanager
-# krita
+krita
+gthumb
 gimp
 telegram-desktop
