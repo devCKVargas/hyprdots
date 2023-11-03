@@ -1,19 +1,73 @@
 {
 	"telemetry.telemetryLevel": "off",
-	"workbench.colorTheme": "Catppuccin-Mocha",
-	"window.menuBarVisibility": "toggle",
+	"workbench.colorTheme": "Catppuccin Mocha",
+	"catppuccin.workbenchMode": "flat",
+	"editor.fontLigatures": true,
+	"window.zoomLevel": 1,
+	"workbench.tree.indent": 4,
+	"workbench.sideBar.location": "right",
+	"workbench.startupEditor": "none",
+	"window.titleBarStyle": "custom",
+	"window.commandCenter": false,
+	//? editor
+	"editor.multiDocumentOccurrencesHighlight": true,
 	"editor.fontSize": 14,
+	"editor.minimap.side": "right",
+	"editor.minimap.size": "fit",
+	"editor.fontFamily": "'JetBrains Mono', 'CaskaydiaCove Nerd Font Mono', 'Arimo Nerd Font', 'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace",
+	"editor.wordWrap": "on",
+	"editor.mouseWheelZoom": true,
+	"editor.linkedEditing": true,
+	"editor.formatOnType": false,
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": false,
+	"editor.tabSize": 2,
+	"editor.insertSpaces": false,
+	"editor.quickSuggestions": {
+		"strings": "on"
+	},
+	"editor.stickyScroll.enabled": true,
+	"editor.minimap.showSlider": "always",
+	"editor.unicodeHighlight.includeComments": false,
+	//? git
+	"git.autofetch": true,
+	"git.enableSmartCommit": true,
+	"git.confirmSync": false,
+	"git.allowForcePush": true,
+	"git.showPushSuccessNotification": true,
+	"git.openRepositoryInParentFolders": "always",
 	"security.workspace.trust.untrustedFiles": "newWindow",
 	"security.workspace.trust.startupPrompt": "never",
 	"security.workspace.trust.enabled": false,
-	"editor.minimap.side": "right",
-	"editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, Arimo Nerd Font, MesloLGS NF",
 	"extensions.autoUpdate": false,
-	"workbench.statusBar.visible": false,
 	"terminal.external.linuxExec": "kitty",
-	"terminal.explorerKind": "both",
-	"terminal.sourceControlRepositoriesKind": "both",
-	"window.zoomLevel": 1,
+	"terminal.sourceControlRepositoriesKind": "external",
+	"terminal.explorerKind": "external",
+	"terminal.integrated.smoothScrolling": true,
+	"terminal.integrated.sendKeybindingsToShell": true,
+	"terminal.integrated.defaultProfile.linux": "zsh",
+	"terminal.integrated.profiles.linux": {
+		"bash": {
+			"path": "bash",
+			"icon": "terminal-bash"
+		},
+		"zsh": {
+			"path": "zsh",
+			"icon": "terminal-linux"
+		},
+		"fish": {
+			"path": "fish",
+			"icon": "terminal-linux"
+		},
+		"tmux": {
+			"path": "tmux",
+			"icon": "terminal-tmux"
+		},
+		"pwsh": {
+			"path": "pwsh",
+			"icon": "terminal-powershell"
+		}
+	},
 	"better-comments.highlightPlainText": true,
 	"better-comments.tags": [
 		{
@@ -81,27 +135,11 @@
 		}
 	],
 	"explorer.confirmDragAndDrop": false,
+	"explorer.confirmDelete": false,
 	"liveServer.settings.donotVerifyTags": true,
 	"liveServer.settings.donotShowInfoMsg": true,
 	"liveServer.settings.AdvanceCustomBrowserCmdLine": "",
 	"liveServer.settings.fullReload": true,
-	"terminal.integrated.smoothScrolling": true,
-	"explorer.confirmDelete": false,
-	"diffEditor.wordWrap": "on",
-	"window.titleBarStyle": "custom",
-	"editor.wordWrap": "on",
-	"editor.mouseWheelZoom": true,
-	"editor.linkedEditing": true,
-	"editor.formatOnType": false,
-	"editor.formatOnSave": true,
-	"editor.formatOnPaste": false,
-	"editor.tabSize": 2,
-	"editor.insertSpaces": false,
-	"editor.quickSuggestions": {
-		"strings": "on"
-	},
-	"workbench.tree.indent": 4,
-	"workbench.startupEditor": "none",
 	"vscord.status.image.small.notInFile.text": "Snoozing zZz",
 	"vscord.status.buttons.button1.active.label": "Check this out? 👇",
 	"vscord.status.buttons.button1.idle.enabled": true,
@@ -113,7 +151,10 @@
 	"vscord.status.buttons.button1.git.active.label": "Check Repo 👇",
 	"vscord.status.details.text.editing": "",
 	"vscord.behaviour.suppressNotifications": true,
-	"htmlhint.documentSelector": ["html", "htm"],
+	"htmlhint.documentSelector": [
+		"html",
+		"htm"
+	],
 	"html.format.indentInnerHtml": true,
 	"html.format.wrapAttributes": "preserve-aligned",
 	"html.format.indentHandlebars": true,
@@ -121,10 +162,6 @@
 	"less.format.spaceAroundSelectorSeparator": true,
 	"css.format.spaceAroundSelectorSeparator": true,
 	"scss.format.spaceAroundSelectorSeparator": true,
-	"git.autofetch": true,
-	"git.enableSmartCommit": true,
-	"git.confirmSync": false,
-	"git.allowForcePush": true,
 	"eslint.format.enable": true,
 	"autoprefixer.formatOnSave": true,
 	"bookmarks.useWorkaroundForFormatters": true,
@@ -148,8 +185,6 @@
 	"[css]": {},
 	"[javascript]": {},
 	"vs-code-prettier-eslint.prettierLast": true,
-	"git.showPushSuccessNotification": true,
-	"terminal.integrated.env.windows": {},
 	"vscode-pets.petColor": "white",
 	"vscode-pets.petSize": "large",
 	"vscode-pets.throwBallWithMouse": true,
@@ -182,8 +217,11 @@
 	"codesnap.containerPadding": "2.5em",
 	"fiveServer.injectBody": true,
 	"gitlens.hovers.currentLine.over": "line",
-	"gitlens.codeLens.scopes": ["document", "containers"],
 	"gitlens.codeLens.enabled": false,
+	"gitlens.codeLens.scopes": [
+		"document",
+		"containers"
+	],
 	"editor.tokenColorCustomizations": {
 		"textMateRules": [
 			{
@@ -222,18 +260,14 @@
 			}
 		]
 	},
-	"git.openRepositoryInParentFolders": "always",
 	"console-ninja.fontSize": 14,
 	"console-ninja.outputMode": "In View",
 	"console-ninja.captureFunctions": true,
-	"editor.stickyScroll.enabled": true,
-	"workbench.sideBar.location": "right",
 	"console-ninja.toolsToEnableSupportAutomaticallyFor": {
 		"live-server-extension": true
 	},
-	"terminal.integrated.env.linux": {},
 	"[jsonc]": {
-		"editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+		"editor.defaultFormatter": "vscode.json-language-features"
 	},
 	"apc.stylesheet": {
 		".monaco-editor .cursor": "background: #ffffffaa !important; box-shadow: 0 0 70px 5px #ffffff, #ffffff 0px 0px 34px 1px; color: [#161616](https://github.com/AlexOwl/vscode-transparent-color-theme/issues/161616) !important",
@@ -244,22 +278,32 @@
 	"animations.Scrolling": "None",
 	"animations.Tabs": "Slide",
 	"vsicons.dontShowNewVersionMessage": true,
-	"editor.minimap.showSlider": "always",
-	"editor.unicodeHighlight.includeComments": false,
 	"glassit-linux.opacity": 98,
-	"terminal.integrated.sendKeybindingsToShell": true,
-	"workbench.iconTheme": "catppuccin-macchiato",
 	"console-ninja.featureSet": "Community",
 	"animations.Install-Method": "Apc Customize UI++",
 	"apc.imports": [
 		"file:///home/devck/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
 	],
-	"terminal.integrated.customGlyphs": false,
 	"animations.Enabled": false,
 	"markdown.editor.pasteUrlAsFormattedLink.enabled": "smart",
 	"markdownlint.config": {
-		"MD033": {
-			"allowed_elements": ["kbd", "br", "p","img",]
-		}
+		"MD033": false // allow inline HTML
 	},
+	"diffEditor.wordWrap": "on",
+	"diffEditor.experimental.showMoves": true,
+	"diffEditor.renderSideBySide": false,
+	"git-autoconfig.configList": [
+		{},
+		{
+			"user.email": "vargaschrisking@gmail.com",
+			"user.name": "devCKVargas"
+		}
+	],
+	"gitlens.views.repositories.files.layout": "tree",
+	"gitlens.rebaseEditor.ordering": "asc",
+	"license.author": "Chris King Vargas",
+	"license.year": "auto",
+	"license.default": "gpl-3.0",
+	"license.filename": "LICENSE",
+	"license.extension": "",
 }
