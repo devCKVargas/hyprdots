@@ -4,7 +4,7 @@
 ![GitHub last commit (dev)](https://img.shields.io/github/last-commit/devckvargas/hyprdots/dev?style=for-the-badge&label=Latest%20(dev)&color=black)<br>
 ![GitHub repo size](https://img.shields.io/github/repo-size/devckvargas/hyprdots?style=for-the-badge&logo=github&color=black)</div>*<br>
 
-<div align = center><img src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/hyprdots_banner.png"><br><br>
+<div align = center><img src="https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/hyprdots_banner.png"><br><br>
 
 &ensp;[<kbd> <br> Install <br> </kbd>](#installation)&ensp;
 &ensp;[<kbd> <br> Themes <br> </kbd>](#theming)&ensp;
@@ -18,11 +18,10 @@
 <https://user-images.githubusercontent.com/106020512/235429801-e8b8dae2-c1ad-4e23-9aa2-b1edb6cabe99.mp4>
 
 <p align="center">
-    <img align="center" width="49%" src="https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/showcase_1.png" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/showcase_2.png" />
     <img align="center" width="49%" src="https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/showcase_3.png" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/showcase_4.png" />
 </p>
 
-<https://github.com/prasanthrangan/hyprdots/assets/106020512/c995699a-299c-4a8e-99d4-71aa3d68eb93>
+<https://github.com/devckvargas/hyprdots/assets/106020512/c995699a-299c-4a8e-99d4-71aa3d68eb93>
 
 ### Installation
 
@@ -72,7 +71,7 @@ For more details, please refer [installation wiki](https://github.com/devckvarga
 
 ## Theming
 
-To add your own custom theme, please refer [theming wiki](https://github.com/prasanthrangan/hyprdots/wiki/Theming)
+To add your own custom theme, please refer [theming wiki](https://github.com/devckvargas/hyprdots/wiki/Theming)
 
 - Available themes
   - [x] Catppuccin-Mocha
@@ -136,8 +135,8 @@ To add your own custom theme, please refer [theming wiki](https://github.com/pra
 
 | Gruvbox-Retro |
 | :-: |
-| ![Gruvbox-Retro#1](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_gruvbox_1.png) |
-| ![Gruvbox-Retro#2](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_gruvbox_2.png) |
+| ![Gruvbox-Retro#1](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/theme_gruvbox_1.png) |
+| ![Gruvbox-Retro#2](https://raw.githubusercontent.com/devckvargas/hyprdots/main/Source/assets/theme_gruvbox_2.png) |
 
 <div align = right> <br><br>
 
@@ -263,12 +262,12 @@ To add your own custom theme, please refer [theming wiki](https://github.com/pra
 
 <table><tr><td>
 <code>a</code><br><code>p</code><br><code>p</code><br><code>s</code></td><td><table>
-    <tr><td>firefox</td><td>browser</td></tr>
+    <tr><td>edge</td><td>browser</td></tr>
     <tr><td>kitty</td><td>terminal</td></tr>
     <tr><td>neofetch</td><td>fetch tool</td></tr>
     <tr><td>dolphin</td><td>kde file manager</td></tr>
     <tr><td>visual-studio-code-bin</td><td>gui code editor</td></tr>
-    <tr><td>vim</td><td>text editor</td></tr>
+    <tr><td>nvim</td><td>text editor</td></tr>
     <tr><td>ark</td><td>kde file archiver</td></tr></table>
 </td></tr></table>
 
@@ -290,17 +289,18 @@ To add your own custom theme, please refer [theming wiki](https://github.com/pra
 
 | Keys | Action |
 | :--  | :-- |
-| `Super + Q` | quit active/focused window
-| `Alt + F4` | quit active/focused window
+| `Super + Q` or `Alt + F4` | quit active/focused window
 | `Super + L` | lock screen
-| `Super + Backspace` | logout menu
+| `Ctrl + Shift + Escape` | Open system monitor (btop)
+| `Super + Backspace / X` | logout menu
 | `Super + Del` | quit hyprland session (logout w/out confirmation)
 | `Super + SPACE` | toggle window on focus to float
-| `Super + F` | toggle window on focus to fullscreen
-| `SUPER + J` | toggle layout
-| `SUPER + P` | toggle pseudotile
+| `Super + F` | toggle window on focus to fullscreen (keep borders)
+| `Super + Shift + F` | toggle window on focus to fullscreen
+| `Super + J` | toggle layout
+| `Super + P` | toggle pseudotile
 | `Super + G` | toggle window group
-| `Super + RETURN` / `(Numpad ENTER)` | launch terminal (kitty)
+| `Super + RETURN / Numpad ENTER` | launch terminal (kitty)
 | `Super + E` | launch file explorer (dolphin)
 | `Super + C` | launch editor (vscode)
 | `Super + B` | launch browser (msedge)
@@ -311,36 +311,41 @@ To add your own custom theme, please refer [theming wiki](https://github.com/pra
 | `fn + F9` | mute audio output (toggle)
 | `fn + F10` `(hold)` | decrease volume
 | `fn + F11` `(hold)` | increase volume
-| `Super + Ctrl + ALT + S`| open spotify
-| `Super + Ctrl + ALT + ↓` `(hold)` | decrease volume for spotify
-| `Super + Ctrl + ALT + ↑` `(hold)` | increase volume for spotify
-| `Super + V` | clipboard history paste
-| `Super + P` | screenshot snip (rectangular select)
-| `Super + Alt + P` / `PrintScreen` | screenshot all screen
-| `Super + SHIFT + X` | open screenshot folder (HOME/Pictures)
+| `Super + Ctrl + Alt + S`| open spotify
+| `Super + Ctrl + ↓` `(hold)` | decrease volume for spotify
+| `Super + Ctrl + ↑` `(hold)` | increase volume for spotify
+| `Super + V` | clipboard history
+| `Super + Shift + A` | screenshot snip (rectangular select)
+| `Super + Shift + S / PrintScreen` | screenshot all screen
+| `Super + Shift + W` | screenshot active window
+| `Super + Shift + D` | screenshot focused monitor
+| `Super + Shift + X` | opens screenshot folder (HOME/Pictures)
 | `Super + RightClick` `(drag)` | resize the window
 | `Super + LeftClick` `(drag)` | change the window position
-| `Super + MouseScroll` / `PageUp/PageDown` | cycle through workspaces
+| `Super + MouseScroll / PageUp/PageDown` | cycle through workspaces
 | `Super + Shift + ←→↑↓` `(hold)` | resize windows
-| `Super + [0-9]` | switch to workspace [0-9]
-| `Super + backtick` / `backquote` | switch to workspace [0]
+| `Super + [0-9]` | switch to workspace [0-9] (Workspace 9 opens Spotify)
+| `Super + backtick` | switch to workspace [10] (opens Caprine)
+| `Super + Ctrl + ←→` | switch to relative workspaces
+| `Super + Ctrl + ↓` | switch to first empty workspace
+| `Super + Ctrl + Alt + ←→` | move active window between relative workspaces
 | `Super + Shift + [0-9]` | move active window to workspace [0-9]
 | `Super + Shift + backtick` / `backquote` | move active window to workspace [0]
-| `Super + ALT + [0-9]` | move active window to workspace silently [0-9] (cursor won't follow)
-| `Super + ALT + backtick` / `backquote` | move active window to workspace silently [0] (cursor won't follow)
-| `Super + CTRL + S` | move window to special workspace
-| `Super + CTRL + ←→↑↓` | move window around
+| `Super + Shift + Ctrl + ←→↑↓` | move active window around
+| `Super + Alt + [0-9]` | move active window to workspace silently [0-9] (cursor won't follow)
+| `Super + Alt + backtick` / `backquote` | move active window to workspace silently [0] (cursor won't follow)
+| `Super + Ctrl + S` | move window to special workspace
 | `Super + S` | toogle to special workspace
 | `Super + Alt + G` | disable hypr effects for gamemode
 | `Super + Alt + →` | next wallpaper
 | `Super + Alt + ←` | previous wallpaper
 | `Super + Alt + ↑` | next waybar mode
 | `Super + Alt + ↓` | previous waybar mode
-| `Super + ALT + D` | toggle (theme <//> wall) based colors
-| `Super + ALT + T` | theme select menu
-| `Super + ALT + W` | wallpaper select menu
-| `Super + ALT + A` | rofi style select menu
-| `Super + ALT + PageDown/PageUp` | turn on/off blue light filter
+| `Super + Alt + D` | toggle (theme <//> wall) based colors
+| `Super + Alt + T` | theme select menu
+| `Super + Alt + W` | wallpaper select menu
+| `Super + Alt + A` | rofi style select menu
+| `Super + Alt + PageDown/PageUp` | turn on/off blue light filter
 
 ### Playlist
 
