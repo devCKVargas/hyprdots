@@ -19,7 +19,6 @@ spicetify-cli
 # file explorer
 dolphin-megasync-bin
 # dolphin-meld
-ffmpegthumbs
 konsole
 
 # system
@@ -53,6 +52,8 @@ xorg-xwininfo
 xclip
 zramd
 trash-cli
+xdg-user-dirs
+expac
 
 # fonts
 terminus-font
@@ -78,6 +79,7 @@ catppuccin-konsole-theme-git
 
 # apps
 caprine
+filezilla
 megasync-bin
 # pamac-nosnap
 # libpamac-nosnap
