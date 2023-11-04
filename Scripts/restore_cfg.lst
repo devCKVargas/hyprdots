@@ -21,3 +21,4 @@ ${HOME}/.local/share/kxmlgui5|dolphin|dolphin
 ${HOME}/.local/share|konsole|konsole
 ${HOME}/.config|mimeapps.list|xdg-utils
 ${HOME}/.config|arkrc|ark
+${HOME}/.config|btop|btop
