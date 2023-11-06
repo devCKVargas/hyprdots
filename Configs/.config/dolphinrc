@@ -3,24 +3,23 @@ MenuBar=Disabled
 [$Version]
 update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display
 
-[DetailsMode]
-PreviewSize=32
-
 [Desktop Entry]
 DefaultProfile=dev.profile
+
+[DetailsMode]
+PreviewSize=32
 
 [ExtractDialog]
 2560x1440 screen: Window-Maximized=true
 
 [General]
 ShowSelectionToggle=false
-ShowStatusBar=false
 Version=202
 ViewPropsTimestamp=2023,4,26,16,58,48.324
 
 [IconsMode]
 MaximumTextLines=1
-PreviewSize=112
+PreviewSize=96
 
 [InformationPanel]
 dateFormat=ShortFormat

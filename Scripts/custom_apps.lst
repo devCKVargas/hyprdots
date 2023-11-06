@@ -27,7 +27,6 @@ whois
 man-db
 man-pages
 lf
-which
 tree
 tldr++
 pkgfile
@@ -40,7 +39,6 @@ sofirem-git
 unrar
 zip
 unzip
-curl
 downgrade
 efitools
 os-prober
