@@ -17,9 +17,9 @@ spicetify-cli
 # youtube-music-git
 
 # file explorer
-dolphin-megasync-bin
-# dolphin-meld
 konsole
+# dolphin-megasync-bin
+# dolphin-meld
 
 # system
 wget
@@ -54,6 +54,7 @@ zramd
 trash-cli
 xdg-user-dirs
 expac
+xorg-xhost
 
 # fonts
 terminus-font
@@ -64,6 +65,7 @@ ttf-material-design-icons-git
 ttf-jetbrains-mono-git
 
 # dev
+npm
 meld
 microsoft-edge-stable-bin
 responsively
@@ -76,13 +78,13 @@ android-tools
 
 # theme
 catppuccin-konsole-theme-git
+libadwaita-without-adwaita-git
 
 # apps
+# megasync-bin (use arco)
 caprine
 filezilla
-megasync-bin
 # pamac-nosnap
-# libpamac-nosnap
 audacity
 timeshift
 btop
