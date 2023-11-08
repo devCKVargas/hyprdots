@@ -149,6 +149,7 @@ alias pc='sudo pacman -Sc' # remove unused cache
 alias yc='yay -Sc' # remove unused cache + yay cache
 alias po='pacman -Qtdq | sudo pacman -Rns -' # remove unused packages, also try > pacman -Qqd | pacman -Rsu --print -
 alias vc='code' # gui code editor
+alias lg='lazygit' # lazygit
 
 # Editor
 export $EDITOR='nvim'
@@ -193,6 +194,7 @@ alias nuserprefs="code ~/.config/hypr/userprefs.conf"
 alias nkeybinds="code ~/.config/hypr/keybindings.conf"
 alias nmonitors="code ~/.config/hypr/monitors.conf"
 alias nwindowrules="code ~/.config/hypr/windowrules.conf"
+alias nnvidia="code ~/.config/hypr/nvidia.conf"
 
 # Update (grub, font, etc)
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
@@ -200,6 +202,9 @@ alias update-font="sudo fc-cache -fv"
 
 # Unlock user (after failed login attempts)
 alias unlockme="faillock --user $(whoami) --reset"
+
+# Trash-cli
+alias rm="trash-put -v"
 
 # print (cat)
 alias whichvga="/usr/local/bin/arcolinux-which-vga"
