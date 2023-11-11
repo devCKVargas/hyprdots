@@ -127,13 +127,10 @@ function in {
     fi
 }
 
- # Example aliases
-alias zshconfig="nvim ~/.zshrc"
-alias ohmyzsh="nvim ~/.oh-my-zsh"
-alias  l='eza -l  --icons' # long list
-alias ls='eza -1  --icons' # short list
-alias ll='eza -la --icons' # long list all
-alias ld='eza -lD --icons' # long list dirs
+alias  l='eza -l  --icons=auto' # long list
+alias ls='eza -1  --icons=auto' # short list
+alias ll='eza -la --icons=auto' # long list all
+alias ld='eza -lD --icons=auto' # long list dirs
 alias un='sudo pacman -Rns' # uninstall package
 alias up='sudo pacman -Syu' # update system/package/aur
 alias pl='pacman -Qs' # list installed package
@@ -239,4 +236,3 @@ neofetch
 #pokemon-colorscripts -r
 
 #Display random gifs
-#kitten icat --align left $(find $HOME/.config/neofetch/gifs/ -name "*.gif" | sort -R | head -1)
