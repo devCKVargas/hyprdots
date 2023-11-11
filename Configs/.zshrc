@@ -97,16 +97,6 @@ fi
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
-# Example aliases
-alias zshconfig="nvim ~/.zshrc"
-alias ohmyzsh="nvim ~/.oh-my-zsh"
-alias  l='eza -l  --icons'
-alias ls='eza -1  --icons'
-alias ll='eza -la --icons'
-alias ld='eza -lD --icons'
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
 function command_not_found_handler {
     local purple='\e[1;35m' bright='\e[0;1m' green='\e[1;32m' reset='\e[0m'
     printf 'zsh: command not found: %s\n' "$1"
@@ -137,6 +127,9 @@ function in {
     fi
 }
 
+ # Example aliases
+alias zshconfig="nvim ~/.zshrc"
+alias ohmyzsh="nvim ~/.oh-my-zsh"
 alias  l='eza -l  --icons' # long list
 alias ls='eza -1  --icons' # short list
 alias ll='eza -la --icons' # long list all
@@ -145,17 +138,22 @@ alias un='sudo pacman -Rns' # uninstall package
 alias up='sudo pacman -Syu' # update system/package/aur
 alias pl='pacman -Qs' # list installed package
 alias pa='pacman -Ss' # list availabe package
+alias list="sudo pacman -Qe" # list pkgs (explicitly installed)
+alias listt="sudo pacman -Qet" # list pkgs w/o deps (explicitly installed)
+alias listaur="sudo pacman -Qem" # list pkgs (AUR)
 alias pc='sudo pacman -Sc' # remove unused cache
 alias yc='yay -Sc' # remove unused cache + yay cache
 alias po='pacman -Qtdq | sudo pacman -Rns -' # remove unused packages, also try > pacman -Qqd | pacman -Rsu --print -
 alias vc='code' # gui code editor
 alias lg='lazygit' # lazygit
 
-# Editor
-export $EDITOR='nvim'
+export $EDITOR="nvim" # Editor
 
-# Edit config
+ # Edit config
 alias nzsh="$EDITOR ~/.zshrc"
+alias nbash="$EDITOR ~/.bashrc"
+alias nfish="$EDITOR ~/.config/fish/config.fish"
+alias nohmyzsh="$EDITOR ~/.oh-my-zsh"
 alias nvisudo="sudo EDITOR=$EDITOR visudo"
 alias nkitty="$EDITOR ~/.config/kitty/kitty.conf"
 alias ntimesync="sudo $EDITOR /etc/systemd/timesyncd.conf"
@@ -177,18 +175,15 @@ alias ngnupgconf="sudo $EDITOR /etc/pacman.d/gnupg/gpg.conf"
 alias nhosts="sudo $EDITOR /etc/hosts"
 alias nhostname="sudo $EDITOR /etc/hostname"
 alias nresolv="sudo $EDITOR /etc/resolv.conf"
-alias nb="$EDITOR ~/.bashrc"
-alias nz="$EDITOR ~/.zshrc"
-alias nf="$EDITOR ~/.config/fish/config.fish"
 alias nneofetch="$EDITOR ~/.config/neofetch/config.conf"
 alias nplymouth="sudo $EDITOR /etc/plymouth/plymouthd.conf"
 alias nvconsole="sudo $EDITOR /etc/vconsole.conf"
 
-# open folder w/ Code
+ # open folder w/ Code
 alias codeHypr="code ~/.config/hypr"
 alias codeHyprdots="code ~/github/devck/hyprdots"
 
-# Hyprland config
+ # Hyprland config
 alias nhyprland="code ~/.config/hypr/hyprland.conf"
 alias nuserprefs="code ~/.config/hypr/userprefs.conf"
 alias nkeybinds="code ~/.config/hypr/keybindings.conf"
@@ -196,46 +191,41 @@ alias nmonitors="code ~/.config/hypr/monitors.conf"
 alias nwindowrules="code ~/.config/hypr/windowrules.conf"
 alias nnvidia="code ~/.config/hypr/nvidia.conf"
 
-# Update (grub, font, etc)
+ # Update (grub, font, etc)
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias update-font="sudo fc-cache -fv"
 
-# Unlock user (after failed login attempts)
+ # Unlock user (after failed login attempts)
 alias unlockme="faillock --user $(whoami) --reset"
 
-# Trash-cli
+ # Trash-cli
 alias rm="trash-put -v"
+alias trash-empty="trash-empty -fv"
 
-# print (cat)
+ # Recent Installed Packages
+alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl" # latest 200 pkgs
+alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | nl" # latest 3000 pkgs
+
+ # Print
 alias whichvga="/usr/local/bin/arcolinux-which-vga"
 alias whichgpu="/usr/local/bin/arcolinux-which-vga"
 alias hw="hwinfo --short"
 alias audio="pactl info | grep 'Server Name'"
 alias iso="cat /etc/dev-rel"
-#Recent Installed Packages
-alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
-alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | nl"
-#audio check pulseaudio or pipewire
-alias audio="pactl info | grep 'Server Name'"
-# This will generate a list of explicitly installed packages
-alias list="sudo pacman -Qe"
-#This will generate a list of explicitly installed packages without dependencies
-alias listt="sudo pacman -Qet"
-# list of AUR packages
-alias listaur="sudo pacman -Qem"
-#reading logs with bat
+alias audio="pactl info | grep 'Server Name'" # audio check pulseaudio or pipewire
+ # reading logs with bat
 alias lcalamares="bat /var/log/Calamares.log"
 alias lpacman="bat /var/log/pacman.log"
 alias lxorg="bat /var/log/Xorg.0.log"
 alias lxorgo="bat /var/log/Xorg.0.log.old"
-#give the list of all installed desktops - xsessions desktops
+ # give the list of all installed desktops - xsessions desktops
 alias xd="ls /usr/share/xsessions"
 alias xdw="ls /usr/share/wayland-sessions"
-#btrfs aliases
+ # btrfs
 alias btrfsfs="sudo btrfs filesystem df /"
 alias btrfsli="sudo btrfs su li / -t"
 
-#fix obvious typo's
+ # fix obvious typo's
 alias cd..='cd ..'
 alias pdw='pwd'
 
