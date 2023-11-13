@@ -33,6 +33,7 @@ pkgfile
 selectdefaultapplication-fork-git
 ventoy-bin
 mkinitcpio-firmware
+mkinitcpio-numlock
 archlinux-tweak-tool-git
 reflector-simple
 sofirem-git
@@ -54,6 +55,7 @@ trash-cli
 xdg-user-dirs
 expac
 xorg-xhost
+ookla-speedtest-bin
 
 # fonts
 terminus-font
