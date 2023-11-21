@@ -25,28 +25,31 @@
 
 ### Installation
 
-The installation script is made for Arch, but **may** work on some Arch based distros.
-For Debian, please refer **Senshi111**'s version [here](https://github.com/Senshi111/debian-hyprland-hyprdots). <br>
-Tested on: <br>
+The installation script is made for Arch, but **may** work on some Arch based distros with **systemd**.
+For Debian, please refer **Senshi111**'s version [here](https://github.com/Senshi111/debian-hyprland-hyprdots).
+Checkout **KSK**'s [video](https://www.youtube.com/watch?v=mb8h1-LB9K0) for full installation walkthrough.<br>
+Tested on:<br>
 
 - [EndeavourOS](https://endeavouros.com/)
 - [Arco Linux](https://arcolinux.info/)
 - [Arch using ALCI - Arch Linux Calamares Installer](https://alci.online/)
 
-> **Warning**
->
+> [!IMPORTANT]
 > Install script will auto-detect nvidia card and install nvidia-dkms drivers for your kernel.
-> Nvidia drm will be enabled in grub, so please [ensure](https://wiki.archlinux.org/title/NVIDIA) your nvidia card supports dkms drivers/hyprland.
+> So please [ensure](https://wiki.archlinux.org/title/NVIDIA) that your Nvidia card supports dkms drivers and hyprland.
+>
+> [!CAUTION]
+> The script modifies your grub config to enable Nvidia drm and theme
 
-After minimal Arch install (with grub), clone and execute -
+After minimal Arch install (with grub and systemd), clone and execute -
 
 ```shell
 sudo pacman -Sy git
-git clone https://github.com/devckvargas/hyprdots ~/Hyprdots
+git clone --depth 1 https://github.com/devckvargas/hyprdots ~/Hyprdots
 cd ~/Hyprdots/Scripts
 ```
 
-> **Note**
+> [!TIP]
 >
 > Add apps you want to install (replace **nvim** with your own editor e.g. nano, vim, code, kate, etc..)
 >
@@ -55,6 +58,7 @@ cd ~/Hyprdots/Scripts
 >```
 >
 > Pass the file as a parameter to install it -
+>
 >
 >
 >```shell
@@ -71,22 +75,27 @@ For more details, please refer [installation wiki](https://github.com/devckvarga
 
 ## Theming
 
-To add your own custom theme, please refer [theming wiki](https://github.com/devckvargas/hyprdots/wiki/Theming)
+To create your own custom theme, please refer [theming wiki](https://github.com/devckvargas/hyprdots/wiki/Theming)
 
-- Available themes
-  - [x] Catppuccin-Mocha
-  - [x] Catppuccin-Latte
-  - [x] Decay-Green
-  - [x] Rosé-Pine
-  - [x] Tokyo-Night
-  - [x] Material-Sakura
-  - [x] Graphite-Mono
-  - [x] Cyberpunk-Edge
-  - [ ] Nordic-Blue (maybe later)
+Available themes by default
 
-- Contributors themes
-  - [x] Frosted-Glass by T-Crypt
-  - [x] Gruvbox-Retro by T-Crypt
+- [x] Catppuccin-Mocha
+- [x] Catppuccin-Latte
+- [x] Decay-Green
+- [x] Rosé-Pine
+- [x] Tokyo-Night
+- [x] Material-Sakura
+- [x] Graphite-Mono
+- [x] Cyberpunk-Edge
+
+Contributors themes
+
+- [x] Frosted-Glass by T-Crypt
+- [x] Gruvbox-Retro by T-Crypt
+
+> [!TIP]
+> You can also maintain/share/browse/install additional themes (for ex. [Synth-Wave](https://github.com/prasanthrangan/hyprdots-mod)) using themepatcher.
+> For more details please refer [themepatcher wiki](https://github.com/prasanthrangan/hyprdots/wiki/Themepatcher).
 
 | Catppuccin-Mocha |
 | :-: |
