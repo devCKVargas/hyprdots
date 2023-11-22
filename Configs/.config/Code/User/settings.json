@@ -1,26 +1,31 @@
 {
+	// Default
 	"telemetry.telemetryLevel": "off",
 	"workbench.colorTheme": "Catppuccin Mocha",
 	"catppuccin.workbenchMode": "flat",
-	"editor.fontLigatures": true,
-	"window.zoomLevel": 1,
-	"workbench.tree.indent": 4,
+	"workbench.iconTheme": "material-icon-theme",
 	"workbench.sideBar.location": "right",
-	"workbench.startupEditor": "none",
 	"window.titleBarStyle": "custom",
+	//"workbench.activityBar.location": "top",
+	//"workbench.startupEditor": "none",
+	"window.zoomLevel": 1,
 	"window.commandCenter": false,
+	"workbench.tree.indent": 4,
+	"files.eol": "\n",
 	//? editor
+	"editor.fontLigatures": true,
 	"editor.multiDocumentOccurrencesHighlight": true,
 	"editor.fontSize": 14,
 	"editor.minimap.side": "right",
 	"editor.minimap.size": "fit",
-	"editor.fontFamily": "'JetBrains Mono', 'CaskaydiaCove Nerd Font Mono', 'Arimo Nerd Font', 'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace",
+	"editor.fontFamily": "'JetBrainsMono NF', 'JetBrainsMono Nerd Font', 'CaskaydiaCove Nerd Font Mono', 'Arimo Nerd Font', 'MesloLGS Nerd Font', 'monospace', monospace",
 	"editor.wordWrap": "on",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.mouseWheelZoom": true,
 	"editor.linkedEditing": true,
-	"editor.formatOnType": false,
+	"editor.formatOnType": true,
 	"editor.formatOnSave": true,
-	"editor.formatOnPaste": false,
+	"editor.formatOnPaste": true,
 	"editor.tabSize": 2,
 	"editor.insertSpaces": false,
 	"editor.quickSuggestions": {
@@ -36,13 +41,28 @@
 	"git.allowForcePush": true,
 	"git.showPushSuccessNotification": true,
 	"git.openRepositoryInParentFolders": "always",
-	"security.workspace.trust.untrustedFiles": "newWindow",
-	"security.workspace.trust.startupPrompt": "never",
-	"security.workspace.trust.enabled": false,
-	"extensions.autoUpdate": false,
+	//? gitlens
+	"gitlens.views.repositories.files.layout": "list",
+	"gitlens.hovers.currentLine.over": "line",
+	"gitlens.rebaseEditor.ordering": "asc",
+	"gitlens.graph.dimMergeCommits": true,
+	"gitlens.graph.showRemoteNames": true,
+	"gitlens.views.commits.pullRequests.showForBranches": false,
+	"gitlens.views.commits.pullRequests.enabled": false,
+	"gitlens.codeLens.scopes": [
+		"document",
+		"containers"
+	],
+	"gitlens.graph.minimap.additionalTypes": [
+		"localBranches",
+		"stashes",
+		"remoteBranches",
+		"tags"
+	],
+	//? terminal (Linux)
 	"terminal.external.linuxExec": "kitty",
-	"terminal.sourceControlRepositoriesKind": "both",
-	"terminal.explorerKind": "both",
+	"terminal.sourceControlRepositoriesKind": "external",
+	"terminal.explorerKind": "external",
 	"terminal.integrated.smoothScrolling": true,
 	"terminal.integrated.sendKeybindingsToShell": true,
 	"terminal.integrated.defaultProfile.linux": "zsh",
@@ -68,6 +88,30 @@
 			"icon": "terminal-powershell"
 		}
 	},
+	//? terminal (Windows)
+	"terminal.integrated.enableBell": true,
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"terminal.integrated.profiles.windows": {
+		"PowerShell": {
+			"source": "PowerShell",
+			"icon": "terminal-powershell"
+		},
+		"Command Prompt": {
+			"path": [
+				"${env:windir}\\Sysnative\\cmd.exe",
+				"${env:windir}\\System32\\cmd.exe"
+			],
+			"args": [],
+			"icon": "terminal-cmd"
+		},
+		"Git Bash": {
+			"source": "Git Bash"
+		},
+	},
+	"security.workspace.trust.untrustedFiles": "newWindow",
+	"security.workspace.trust.startupPrompt": "never",
+	"security.workspace.trust.enabled": false,
+	"extensions.autoUpdate": false,
 	"better-comments.highlightPlainText": true,
 	"better-comments.tags": [
 		{
@@ -169,6 +213,8 @@
 	"prettier.endOfLine": "lf",
 	"prettier.bracketSameLine": true,
 	"prettier.printWidth": 100,
+	"prettier.insertPragma": true,
+	"prettier.requirePragma": true,
 	"[html]": {
 		"editor.tabSize": 3,
 		"editor.defaultFormatter": "vscode.html-language-features"
@@ -180,14 +226,20 @@
 	"scss.lint.float": "warning",
 	"[scss]": {
 		"editor.defaultFormatter": "vscode.css-language-features"
-		// "editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[css]": {},
 	"[javascript]": {},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
 	"vs-code-prettier-eslint.prettierLast": true,
 	"vscode-pets.petColor": "white",
 	"vscode-pets.petSize": "large",
 	"vscode-pets.throwBallWithMouse": true,
+	"vscode-pets.petType": "totoro",
 	"svg.preview.transparencyGrid": false,
 	"svg.preview.boundingBox": false,
 	"indentRainbow.lightIndicatorStyleLineWidth": 12,
@@ -211,17 +263,10 @@
 		}
 	],
 	"vscode_vibrancy.opacity": 0.95,
-	"vscode-pets.petType": "totoro",
 	"scss.format.maxPreserveNewLines": 100,
 	"codesnap.backgroundColor": "hsla(202, 46%, 72%, 1)",
 	"codesnap.containerPadding": "2.5em",
 	"fiveServer.injectBody": true,
-	"gitlens.hovers.currentLine.over": "line",
-	"gitlens.codeLens.enabled": false,
-	"gitlens.codeLens.scopes": [
-		"document",
-		"containers"
-	],
 	"editor.tokenColorCustomizations": {
 		"textMateRules": [
 			{
@@ -266,12 +311,11 @@
 	"console-ninja.toolsToEnableSupportAutomaticallyFor": {
 		"live-server-extension": true
 	},
-	"[jsonc]": {
-		"editor.defaultFormatter": "vscode.json-language-features"
-	},
+	//? Animations
 	"apc.stylesheet": {
 		".monaco-editor .cursor": "background: #ffffffaa !important; box-shadow: 0 0 70px 5px #ffffff, #ffffff 0px 0px 34px 1px; color: [#161616](https://github.com/AlexOwl/vscode-transparent-color-theme/issues/161616) !important",
 	},
+	"animations.Enabled": false,
 	"editor.cursorBlinking": "phase",
 	"editor.cursorSmoothCaretAnimation": "on",
 	"animations.Active": "Indent",
@@ -284,26 +328,32 @@
 	"apc.imports": [
 		"file:///home/devck/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
 	],
-	"animations.Enabled": false,
+	// end of animations
 	"markdown.editor.pasteUrlAsFormattedLink.enabled": "smart",
 	"markdownlint.config": {
 		"MD033": false // allow inline HTML
 	},
 	"diffEditor.wordWrap": "on",
 	"diffEditor.experimental.showMoves": true,
-	"diffEditor.renderSideBySide": false,
 	"git-autoconfig.configList": [
-		{},
 		{
 			"user.email": "vargaschrisking@gmail.com",
 			"user.name": "devCKVargas"
-		}
+		},
+		{}
 	],
-	"gitlens.views.repositories.files.layout": "tree",
-	"gitlens.rebaseEditor.ordering": "asc",
 	"license.author": "Chris King Vargas",
 	"license.year": "auto",
 	"license.default": "gpl-3.0",
 	"license.filename": "LICENSE",
 	"license.extension": "",
+	"emojisense.languages": {
+		"markdown": true,
+		"plaintext": {
+			"markupCompletionsEnabled": false,
+			"emojiDecoratorsEnabled": false
+		},
+		"scminput": true,
+		"git-commit": true
+	},
 }
