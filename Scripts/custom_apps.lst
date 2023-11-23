@@ -1,6 +1,6 @@
 neovim
 emote
-trash-cli-git
+trash-cli
 # steam
 gamemode
 # gamescope
@@ -9,7 +9,6 @@ gamemode
 # git
 github-cli
 lazygit
-# gitkraken (same as vscode gitlens)
 
 # music
 spotify
@@ -28,7 +27,7 @@ man-db
 man-pages
 lf
 tree
-tldr++
+tldr
 pkgfile
 selectdefaultapplication-fork-git
 ventoy-bin
@@ -66,6 +65,7 @@ ttf-arimo-nerd
 ttf-font-awesome
 ttf-material-design-icons-git
 ttf-jetbrains-mono-git
+ttf-jetbrains-mono-nerd
 
 # dev
 npm
