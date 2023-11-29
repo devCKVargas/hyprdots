@@ -1,26 +1,43 @@
+# █░█ █▄█ █▀█ █▀█ █▀▄ █▀█ ▀█▀ █▀
+# █▀█ ░█░ █▀▀ █▀▄ █▄▀ █▄█ ░█░ ▄█
+# steam
+# gamescope
+# mangohud
 neovim
 emote
 trash-cli
-# steam
 gamemode
-# gamescope
-# mangohud
+	
+# █▀█ █▀█ █ █▄░█ ▀█▀ █▀▀ █▀█
+# █▀▀ █▀▄ █ █░▀█ ░█░ ██▄ █▀▄
+# epson-printer-utility
+# epson-inkjet-printer-201207w
+# epsonscan2
 
-# git
+# █▀▄ █▀▀ █░█
+# █▄▀ ██▄ ▀▄▀
 github-cli
 lazygit
+npm
+meld
+microsoft-edge-stable-bin
+responsively
+vlc
+ticktick
+google-chrome
 
-# music
-spotify
-spicetify-cli
-# youtube-music-git
+# █▀▀ █▀█ █▄░█ ▀█▀ █▀
+# █▀░ █▄█ █░▀█ ░█░ ▄█
+noto-fonts-emoji
+terminus-font
+ttf-meslo-nerd
+ttf-arimo-nerd
+ttf-font-awesome
+ttf-material-design-icons-git
+ttf-jetbrains-mono-nerd
 
-# file explorer
-konsole
-# dolphin-megasync-bin
-# dolphin-meld
-
-# system
+# █▀ █▄█ █▀ ▀█▀ █▀▀ █▀▄▀█
+# ▄█ ░█░ ▄█ ░█░ ██▄ █░▀░█
 wget
 whois
 man-db
@@ -58,36 +75,36 @@ ookla-speedtest-bin
 devtools
 debtap
 
-# fonts
-terminus-font
-ttf-meslo-nerd
-ttf-arimo-nerd
-ttf-font-awesome
-ttf-material-design-icons-git
-ttf-jetbrains-mono-git
-ttf-jetbrains-mono-nerd
-
-# dev
-npm
-meld
-microsoft-edge-stable-bin
-responsively
-vlc
-ticktick
-google-chrome
-
-# android
+# ▄▀█ █▄░█ █▀▄ █▀█ █▀█ █ █▀▄ 
+# █▀█ █░▀█ █▄▀ █▀▄ █▄█ █ █▄▀ 
 android-tools
 
-# theme
+# █▀▀ █ █░░ █▀▀   █▀▀ ▀▄▀ █▀█ █░░ █▀█ █▀█ █▀▀ █▀█
+# █▀░ █ █▄▄ ██▄   ██▄ █░█ █▀▀ █▄▄ █▄█ █▀▄ ██▄ █▀▄
+# dolphin-megasync-bin
+# dolphin-meld
+konsole
+gthumb
+gwenview
+
+# █▀▄▀█ █░█ █▀ █ █▀▀
+# █░▀░█ █▄█ ▄█ █ █▄▄
+# youtube-music-git
+spotify
+spicetify-cli
+
+# ▀█▀ █░█ █▀▀ █▀▄▀█ █▀▀
+# ░█░ █▀█ ██▄ █░▀░█ ██▄
 catppuccin-konsole-theme-git
 libadwaita-without-adwaita-git
 
-# apps
+# ▄▀█ █▀█ █▀█ █▀
+# █▀█ █▀▀ █▀▀ ▄█
 # megasync-bin (use arco)
+# discord-screenaudio
+# pamac-nosnap
 caprine
 filezilla
-# pamac-nosnap
 audacity
 timeshift
 btop
@@ -95,9 +112,9 @@ nvtop
 partitionmanager
 kalk
 bitwarden
-# discord-screenaudio
 freedownloadmanager
 krita
-gthumb
 gimp
 telegram-desktop
+piper-git
+handbrake
