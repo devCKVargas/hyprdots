@@ -6,7 +6,7 @@ fi
 
 ScrDir=`dirname $(realpath $0)`
 source $ScrDir/globalcontrol.sh
-swpy_dir="$HOME/.config/swappy"
+swpy_dir="${XDG_CONFIG_HOME:-$HOME/.config}/swappy"
 save_dir="${2:-$XDG_PICTURES_DIR/Screenshots/$(date +'%Y-%m')}"
 save_file=$(date +'%y%m%d_%Hh%Mm%Ss_screenshot.png')
 temp_screenshot="/tmp/screenshot.png"
@@ -22,6 +22,7 @@ cat << "EOF"
     ...valid actions are...
         p : print all screens
         s : snip current screen
+        sf : snip current screen (frozen)
         m : print focused monitor
         w : print active window
 EOF
@@ -32,6 +33,8 @@ p)  # print all outputs
     grimblast copysave screen $temp_screenshot && swappy -f $temp_screenshot ;;
 s)  # drag to manually snip an area / click on a window to print it
     grimblast copysave area $temp_screenshot && swappy -f $temp_screenshot ;;
+sf)  # frozen screen, drag to manually snip an area / click on a window to print it
+    grimblast --freeze copysave area $temp_screenshot && swappy -f $temp_screenshot ;;
 m)  # print focused monitor
     grimblast copysave output $temp_screenshot && swappy -f $temp_screenshot ;;
 w)  # print active window

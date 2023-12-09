@@ -3,7 +3,7 @@
 # set variables
 ScrDir=`dirname $(realpath $0)`
 source $ScrDir/globalcontrol.sh
-RofiConf="$HOME/.config/rofi/themeselect.rasi"
+RofiConf="${XDG_CONFIG_HOME:-$HOME/.config}/rofi/themeselect.rasi"
 
 
 # scale for monitor x res
@@ -24,7 +24,7 @@ do
     thm=`echo $line | cut -d '|' -f 2`
     wal=`echo $line | awk -F '/' '{print $NF}'`
     echo -en "$thm\x00icon\x1f$cacheDir/${thm}/${wal}\n"
-done | rofi -dmenu -theme-str "${r_override}" -config $RofiConf)
+done | rofi -dmenu -theme-str "${r_override}" -config $RofiConf -select "${gtkTheme}")
 
 
 # apply theme
